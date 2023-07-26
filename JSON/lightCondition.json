@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Daylight",
+    "value": "1"
+  },
+  {
+    "name": "Dark-Lighted",
+    "value": "2"
+  },
+  {
+    "name": "Dark-Unlighted",
+    "value": "3"
+  },
+  {
+    "name": "Dark-Unknown Lighting",
+    "value": "6"
+  },
+  {
+    "name": "Other (Explain)",
+    "value": "7"
+  },
+  {
+    "name": "Dawn / Dusk",
+    "value": "8"
+  },
+  {
+    "name": "Unknown (Explain)",
+    "value": "U"
+  }
+]

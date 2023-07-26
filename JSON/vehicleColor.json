@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Aluminum",
+    "value": "SIL"
+  },
+  {
+    "name": "Amethyst (purple)",
+    "value": "AME"
+  },
+  {
+    "name": "Beige",
+    "value": "BGE"
+  },
+  {
+    "name": "Black",
+    "value": "BLK"
+  },
+  {
+    "name": "Blue",
+    "value": "BLU"
+  },
+  {
+    "name": "Blue, Dark",
+    "value": "DBL"
+  },
+  {
+    "name": "Blue, Light",
+    "value": "LBL"
+  },
+  {
+    "name": "Bronze",
+    "value": "BRZ"
+  },
+  {
+    "name": "Brown",
+    "value": "BRO"
+  },
+  {
+    "name": "Burgundy (purple)",
+    "value": "MAR"
+  },
+  {
+    "name": "Camouflage",
+    "value": "CAM"
+  },
+  {
+    "name": "Chrome",
+    "value": "COM"
+  },
+  {
+    "name": "Copper",
+    "value": "CPR"
+  },
+  {
+    "name": "Cream",
+    "value": "CRM"
+  },
+  {
+    "name": "Gold",
+    "value": "GLD"
+  },
+  {
+    "name": "Gray",
+    "value": "GRY"
+  },
+  {
+    "name": "GREEN",
+    "value": "GRN"
+  },
+  {
+    "name": "Green, Dark",
+    "value": "DGR"
+  },
+  {
+    "name": "Green, Light",
+    "value": "LGR"
+  },
+  {
+    "name": "Ivory",
+    "value": "CRM"
+  },
+  {
+    "name": "Lavender (purple)",
+    "value": "LAV"
+  },
+  {
+    "name": "Maroon",
+    "value": "MAR"
+  },
+  {
+    "name": "Mauve (purple)",
+    "value": "MVE"
+  },
+  {
+    "name": "Multicolored",
+    "value": "MUL/COL"
+  },
+  {
+    "name": "Orange",
+    "value": "ONG"
+  },
+  {
+    "name": "Pink",
+    "value": "PNK"
+  },
+  {
+    "name": "Purple",
+    "value": "PLE"
+  },
+  {
+    "name": "Red",
+    "value": "RED"
+  },
+  {
+    "name": "Silver",
+    "value": "SIL"
+  },
+  {
+    "name": "Stainless Steel",
+    "value": "COM"
+  },
+  {
+    "name": "Tan",
+    "value": "TAN"
+  },
+  {
+    "name": "Taupe (brown)",
+    "value": "TPE"
+  },
+  {
+    "name": "Teal (green)",
+    "value": "TEA"
+  },
+  {
+    "name": "Turquoise (blue)",
+    "value": "TRQ"
+  },
+  {
+    "name": "White",
+    "value": "WHI"
+  },
+  {
+    "name": "Yellow",
+    "value": "YEL"
+  }
+]

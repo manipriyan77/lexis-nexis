@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Animal",
+    "value": "1"
+  },
+  {
+    "name": "Pedalcycle",
+    "value": "2"
+  },
+  {
+    "name": "Fixed Object",
+    "value": "3"
+  },
+  {
+    "name": "Other Object",
+    "value": "4"
+  },
+  {
+    "name": "Pedestrian",
+    "value": "5"
+  },
+  {
+    "name": "Struck by Falling, Shifting Cargo or Anything Set in Motion by Motor Vehicle",
+    "value": "6"
+  },
+  {
+    "name": "Railway Vehicle",
+    "value": "7"
+  },
+  {
+    "name": "Motor Vehicle In Transport",
+    "value": "8"
+  },
+  {
+    "name": "Parked Motor Vehicle",
+    "value": "9"
+  },
+  {
+    "name": "Working Motor Vehicle",
+    "value": "10"
+  },
+  {
+    "name": "Other Non-Motorist",
+    "value": "11"
+  }
+]

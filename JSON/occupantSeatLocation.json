@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Not Known",
+    "value": "XX"
+  },
+  {
+    "name": "Motorcycle",
+    "value": "M"
+  },
+  {
+    "name": "Commercial Passenger",
+    "value": "CP"
+  },
+  {
+    "name": "Occupant - Enclosed Load Area",
+    "value": "OE"
+  },
+  {
+    "name": "Occupant - Unenclosed Load Area",
+    "value": "OU"
+  },
+  {
+    "name": "Rail Crew",
+    "value": "RC"
+  },
+  {
+    "name": "Riding on Motor Vehicle Exterior ( non-trailing unit)",
+    "value": "VE"
+  },
+  {
+    "name": "Sleeper Section of Cab (truck)",
+    "value": "SS"
+  },
+  {
+    "name": "Trailing Unit",
+    "value": "TU"
+  },
+  {
+    "name": "Other (Explain in Narrative)",
+    "value": "SV"
+  },
+  {
+    "name": "Not Applicable",
+    "value": "NA"
+  },
+  {
+    "name": "Front Row Left",
+    "value": "FL"
+  },
+  {
+    "name": "Front Row Center",
+    "value": "FC"
+  },
+  {
+    "name": "Front Row Right",
+    "value": "FR"
+  },
+  {
+    "name": "Second Row Left",
+    "value": "SL"
+  },
+  {
+    "name": "Second Row Center",
+    "value": "SC"
+  },
+  {
+    "name": "Second Row Right",
+    "value": "SR"
+  },
+  {
+    "name": "Third Row Left",
+    "value": "TL"
+  },
+  {
+    "name": "Third Row Center",
+    "value": "TC"
+  },
+  {
+    "name": "Third Row Right",
+    "value": "TR"
+  }
+]

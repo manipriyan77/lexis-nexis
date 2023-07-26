@@ -1,0 +1,202 @@
+[
+  {
+    "name": "ALASKA",
+    "value": "AK"
+  },
+  {
+    "name": "ALABAMA",
+    "value": "AL"
+  },
+  {
+    "name": "ARKANSAS",
+    "value": "AR"
+  },
+  {
+    "name": "ARIZONA",
+    "value": "AZ"
+  },
+  {
+    "name": "CALIFORNIA",
+    "value": "CA"
+  },
+  {
+    "name": "COLORADO",
+    "value": "CO"
+  },
+  {
+    "name": "CONNECTICUT",
+    "value": "CT"
+  },
+  {
+    "name": "DELAWARE",
+    "value": "DE"
+  },
+  {
+    "name": "FLORIDA",
+    "value": "FL"
+  },
+  {
+    "name": "GEORGIA",
+    "value": "GA"
+  },
+  {
+    "name": "HAWAII",
+    "value": "HI"
+  },
+  {
+    "name": "IOWA",
+    "value": "IA"
+  },
+  {
+    "name": "IDAHO",
+    "value": "ID"
+  },
+  {
+    "name": "ILLINOIS",
+    "value": "IL"
+  },
+  {
+    "name": "INDIANA",
+    "value": "IN"
+  },
+  {
+    "name": "KANSAS",
+    "value": "KS"
+  },
+  {
+    "name": "KENTUCKY",
+    "value": "KY"
+  },
+  {
+    "name": "LOUISIANA",
+    "value": "LA"
+  },
+  {
+    "name": "MASSACHUSETTS",
+    "value": "MA"
+  },
+  {
+    "name": "MARYLAND",
+    "value": "MD"
+  },
+  {
+    "name": "MAINE",
+    "value": "ME"
+  },
+  {
+    "name": "MICHIGAN",
+    "value": "MI"
+  },
+  {
+    "name": "MINNESOTA",
+    "value": "MN"
+  },
+  {
+    "name": "MISSOURI",
+    "value": "MO"
+  },
+  {
+    "name": "MISSISSIPPI",
+    "value": "MS"
+  },
+  {
+    "name": "MONTANA",
+    "value": "MT"
+  },
+  {
+    "name": "NORTH CAROLINA",
+    "value": "NC"
+  },
+  {
+    "name": "NORTH DAKOTA",
+    "value": "ND"
+  },
+  {
+    "name": "NEBRASKA",
+    "value": "NE"
+  },
+  {
+    "name": "NEW HAMPSHIRE",
+    "value": "NH"
+  },
+  {
+    "name": "NEW JERSEY",
+    "value": "NJ"
+  },
+  {
+    "name": "NEW MEXICO",
+    "value": "NM"
+  },
+  {
+    "name": "NEVADA",
+    "value": "NV"
+  },
+  {
+    "name": "NEW YORK",
+    "value": "NY"
+  },
+  {
+    "name": "OHIO",
+    "value": "OH"
+  },
+  {
+    "name": "OKLAHOMA",
+    "value": "OK"
+  },
+  {
+    "name": "OREGON",
+    "value": "OR"
+  },
+  {
+    "name": "PENNSYLVANIA",
+    "value": "PA"
+  },
+  {
+    "name": "RHODE ISLAND",
+    "value": "RI"
+  },
+  {
+    "name": "SOUTH CAROLINA",
+    "value": "SC"
+  },
+  {
+    "name": "SOUTH DAKOTA",
+    "value": "SD"
+  },
+  {
+    "name": "TENNESSEE",
+    "value": "TN"
+  },
+  {
+    "name": "TEXAS",
+    "value": "TX"
+  },
+  {
+    "name": "UTAH",
+    "value": "UT"
+  },
+  {
+    "name": "VIRGINIA",
+    "value": "VA"
+  },
+  {
+    "name": "VERMONT",
+    "value": "VT"
+  },
+  {
+    "name": "WASHINGTON",
+    "value": "WA"
+  },
+  {
+    "name": "WISCONSIN",
+    "value": "WI"
+  },
+  {
+    "name": "WEST VIRGINIA",
+    "value": "WV"
+  },
+  {
+    "name": "WYOMING",
+    "value": "WY"
+  }
+]

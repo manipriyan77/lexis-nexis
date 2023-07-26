@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Enclosed Box",
+    "value": "1"
+  },
+  {
+    "name": "Cargo Tank",
+    "value": "2"
+  },
+  {
+    "name": "Flatbed",
+    "value": "3"
+  },
+  {
+    "name": "Dump",
+    "value": "4"
+  },
+  {
+    "name": "Concrete Mixer",
+    "value": "5"
+  },
+  {
+    "name": "Auto Transporter",
+    "value": "6"
+  },
+  {
+    "name": "Garbage / Refuse",
+    "value": "7"
+  },
+  {
+    "name": "Grain / Chip / Gravel",
+    "value": "8"
+  },
+  {
+    "name": "Pole Trailer",
+    "value": "9"
+  },
+  {
+    "name": "Log",
+    "value": "10"
+  },
+  {
+    "name": "Vehicle Towing Another Vehicle",
+    "value": "11"
+  },
+  {
+    "name": "Intermodal Container Chassis",
+    "value": "12"
+  },
+  {
+    "name": "NA (No Cargo Body)",
+    "value": "13"
+  },
+  {
+    "name": "Other",
+    "value": "14"
+  },
+  {
+    "name": "Unknown",
+    "value": "15"
+  }
+]

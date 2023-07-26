@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Dry",
+    "value": "1"
+  },
+  {
+    "name": "Wet",
+    "value": "2"
+  },
+  {
+    "name": "Snow",
+    "value": "3"
+  },
+  {
+    "name": "Ice / Frost",
+    "value": "4"
+  },
+  {
+    "name": "Slush",
+    "value": "5"
+  },
+  {
+    "name": "Standing Water",
+    "value": "7"
+  },
+  {
+    "name": "Moving Water",
+    "value": "8"
+  },
+  {
+    "name": "Other (Explain)",
+    "value": "9"
+  },
+  {
+    "name": "Mud, Dirt, Gravel",
+    "value": "11"
+  },
+  {
+    "name": "Sand",
+    "value": "12"
+  },
+  {
+    "name": "Unknown (Explain)",
+    "value": "U"
+  }
+]

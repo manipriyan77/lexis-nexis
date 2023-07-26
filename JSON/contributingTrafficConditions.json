@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NA",
+    "value": "1"
+  },
+  {
+    "name": "Congestion Ahead",
+    "value": "2"
+  },
+  {
+    "name": "Crash Ahead",
+    "value": "3"
+  },
+  {
+    "name": "Other Incident Ahead",
+    "value": "4"
+  },
+  {
+    "name": "Unknown (Explain)",
+    "value": "5"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Green / Yellow / Red ",
+    "value": "1"
+  },
+  {
+    "name": "Flashing Red",
+    "value": "2"
+  },
+  {
+    "name": "Flashing Yellow",
+    "value": "3"
+  },
+  {
+    "name": "Ramp Meter",
+    "value": "4"
+  },
+  {
+    "name": "Other (Explain)",
+    "value": "5"
+  },
+  {
+    "name": "Stop Sign",
+    "value": "6"
+  },
+  {
+    "name": "No Passing Zone",
+    "value": "7"
+  },
+  {
+    "name": "Turn Restricted",
+    "value": "8"
+  },
+  {
+    "name": "Officer / Flagman",
+    "value": "9"
+  },
+  {
+    "name": "Signal On School Bus",
+    "value": "10"
+  },
+  {
+    "name": "Warning Sign / Device",
+    "value": "11"
+  },
+  {
+    "name": "Railway Crossing Sign / Device",
+    "value": "12"
+  },
+  {
+    "name": "School Zone",
+    "value": "13"
+  },
+  {
+    "name": "Yield Sign",
+    "value": "14"
+  },
+  {
+    "name": "Other (Explain)",
+    "value": "15"
+  }
+]

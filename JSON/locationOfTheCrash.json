@@ -1,0 +1,30 @@
+[
+  {
+    "name": "NA",
+    "value": "1"
+  },
+  {
+    "name": "Unknown",
+    "value": "2"
+  },
+  {
+    "name": "Before the First Work Zone Warning Sign",
+    "value": "3"
+  },
+  {
+    "name": "Advance Warning Area",
+    "value": "4"
+  },
+  {
+    "name": "Transition Area",
+    "value": "5"
+  },
+  {
+    "name": "Activity Area",
+    "value": "6"
+  },
+  {
+    "name": "Termination Area",
+    "value": "7"
+  }
+]

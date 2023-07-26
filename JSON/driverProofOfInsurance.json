@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Yes",
+    "value": "1"
+  },
+  {
+    "name": "No",
+    "value": "2"
+  },
+  {
+    "name": "Not Required",
+    "value": "3"
+  }
+]

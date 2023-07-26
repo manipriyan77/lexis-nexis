@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NA/None",
+    "value": "1"
+  },
+  {
+    "name": "Getting On / Off Vehicle",
+    "value": "2"
+  },
+  {
+    "name": "Standing / Lying / Sitting in Trafficway",
+    "value": "3"
+  },
+  {
+    "name": "Pushing / Working On Vehicle",
+    "value": "4"
+  },
+  {
+    "name": "Behind / In Front of Parked / Stopped Vehicle",
+    "value": "5"
+  },
+  {
+    "name": "Working In Trafficway",
+    "value": "6"
+  },
+  {
+    "name": "Playing In Trafficway",
+    "value": "7"
+  },
+  {
+    "name": "Walking / Running / Cycling / Riding In Trafficway",
+    "value": "8"
+  },
+  {
+    "name": "Other (Explain)",
+    "value": "9"
+  },
+  {
+    "name": "Unknown",
+    "value": "10"
+  }
+]

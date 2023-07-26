@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Not Applicable",
+    "value": "1"
+  },
+  {
+    "name": "Cross Intersection (4 Way)",
+    "value": "2"
+  },
+  {
+    "name": "T-Intersection",
+    "value": "3"
+  },
+  {
+    "name": "Y-Intersection",
+    "value": "4"
+  },
+  {
+    "name": "Five or More Legs and Not Circular",
+    "value": "5"
+  },
+  {
+    "name": "Roundabout",
+    "value": "6"
+  },
+  {
+    "name": "Other Circular Intersection",
+    "value": "7"
+  },
+  {
+    "name": "Other",
+    "value": "8"
+  },
+  {
+    "name": "Unknown",
+    "value": "9"
+  }
+]

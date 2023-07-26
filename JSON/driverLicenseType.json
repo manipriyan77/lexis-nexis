@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NA",
+    "value": "1"
+  },
+  {
+    "name": "Operator Class",
+    "value": "2"
+  },
+  {
+    "name": "CDL Class",
+    "value": "3"
+  },
+  {
+    "name": "Interm / Grad",
+    "value": "4"
+  },
+  {
+    "name": "Permit",
+    "value": "5"
+  },
+  {
+    "name": "MC Only",
+    "value": "6"
+  },
+  {
+    "name": "Unlicensed",
+    "value": "7"
+  },
+  {
+    "name": "Unknown (Explain)",
+    "value": "8"
+  }
+]

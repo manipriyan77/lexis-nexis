@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Overturning",
+    "value": "1"
+  },
+  {
+    "name": "Fire / Explosion",
+    "value": "2"
+  },
+  {
+    "name": "Immersion",
+    "value": "3"
+  },
+  {
+    "name": "Jackknife",
+    "value": "4"
+  },
+  {
+    "name": "Fell / Jumped From MV",
+    "value": "5"
+  },
+  {
+    "name": "Cargo / Equipment Loss or Shift",
+    "value": "6"
+  },
+  {
+    "name": "Other Non-Collision",
+    "value": "7"
+  },
+  {
+    "name": "Thrown or Falling Object",
+    "value": "8"
+  }
+]

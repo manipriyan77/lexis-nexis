@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Law Enforcement Officer",
+    "value": "1"
+  },
+  {
+    "name": "Tow Operator",
+    "value": "2"
+  },
+  {
+    "name": "EMS",
+    "value": "3"
+  },
+  {
+    "name": "Fire",
+    "value": "4"
+  },
+  {
+    "name": "MoDOT Worker",
+    "value": "5"
+  },
+  {
+    "name": "Other Trafficway Worker",
+    "value": "6"
+  },
+  {
+    "name": "NA",
+    "value": "7"
+  }
+]

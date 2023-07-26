@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NA",
+    "value": "1"
+  },
+  {
+    "name": "Police",
+    "value": "2"
+  },
+  {
+    "name": "Fire",
+    "value": "3"
+  },
+  {
+    "name": "Ambulance",
+    "value": "4"
+  },
+  {
+    "name": "Other",
+    "value": "5"
+  }
+]

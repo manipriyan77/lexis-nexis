@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Passenger Car",
+    "value": "1"
+  },
+  {
+    "name": "Passenger Van (< 9 Seats)",
+    "value": "2"
+  },
+  {
+    "name": "9-12 Passenger Van",
+    "value": "3"
+  },
+  {
+    "name": "15-Passenger Van",
+    "value": "4"
+  },
+  {
+    "name": "Sport Utility Vehicle",
+    "value": "5"
+  },
+  {
+    "name": "Limousine (7-8 W/Driver)",
+    "value": "6"
+  },
+  {
+    "name": "Limousine (9-15 W/Driver)",
+    "value": "7"
+  },
+  {
+    "name": "Motorized Bicycle / Moped",
+    "value": "8"
+  },
+  {
+    "name": "School Bus",
+    "value": "9"
+  },
+  {
+    "name": "Intercity",
+    "value": "10"
+  },
+  {
+    "name": "Transit / Commuter",
+    "value": "11"
+  },
+  {
+    "name": "Charter / Tour",
+    "value": "12"
+  },
+  {
+    "name": "Other",
+    "value": "13"
+  }
+]

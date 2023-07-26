@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NA",
+    "value": "1"
+  },
+  {
+    "name": "PEDESTRIAN",
+    "value": "2"
+  },
+  {
+    "name": "PEDESTRIAN ON PERSONAL CONVEYANCE",
+    "value": "3"
+  },
+  {
+    "name": "PEDALCYLIST",
+    "value": "4"
+  },
+  {
+    "name": "OTHER NON-MOTORIST",
+    "value": "5"
+  }
+]

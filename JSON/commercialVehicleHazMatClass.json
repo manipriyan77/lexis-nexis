@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Explosives",
+    "value": "1"
+  },
+  {
+    "name": "Gases",
+    "value": "2"
+  },
+  {
+    "name": "Flammable liquid",
+    "value": "3"
+  },
+  {
+    "name": "Flammable solids",
+    "value": "4"
+  },
+  {
+    "name": "Oxidizing substances",
+    "value": "5"
+  },
+  {
+    "name": "Poisonous substances",
+    "value": "6"
+  },
+  {
+    "name": "Radioactive material",
+    "value": "7"
+  },
+  {
+    "name": "Corrosives",
+    "value": "8"
+  },
+  {
+    "name": "Misc dangerous goods",
+    "value": "9"
+  }
+]

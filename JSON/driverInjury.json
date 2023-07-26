@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Fatal Injury",
+    "value": "K"
+  },
+  {
+    "name": "Suspected Serious Injury",
+    "value": "A"
+  },
+  {
+    "name": "Suspected Minor Injury",
+    "value": "B"
+  },
+  {
+    "name": "Possible Injury",
+    "value": "C"
+  },
+  {
+    "name": "No Apparent Injury",
+    "value": "O"
+  },
+  {
+    "name": "Unknown",
+    "value": "U"
+  },
+  {
+    "name": "NA",
+    "value": "N"
+  }
+]

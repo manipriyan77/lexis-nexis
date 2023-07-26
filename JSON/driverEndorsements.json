@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Yes",
+    "value": "1"
+  },
+  {
+    "name": "No",
+    "value": "2"
+  },
+  {
+    "name": "NA",
+    "value": "3"
+  },
+  {
+    "name": "Unk",
+    "value": "4"
+  },
+  {
+    "name": "Code(s)",
+    "value": "5"
+  }
+]

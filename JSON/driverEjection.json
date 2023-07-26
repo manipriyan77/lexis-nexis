@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Not Ejected",
+    "value": "1"
+  },
+  {
+    "name": "Ejected, Totally",
+    "value": "2"
+  },
+  {
+    "name": "Ejected, Partially",
+    "value": "3"
+  },
+  {
+    "name": "Not Applicable",
+    "value": "4"
+  },
+  {
+    "name": "Unknown",
+    "value": "88"
+  }
+]

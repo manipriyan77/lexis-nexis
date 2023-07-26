@@ -1,0 +1,270 @@
+[
+  {
+    "name": "ALACHUA",
+    "value": "11"
+  },
+  {
+    "name": "BAKER",
+    "value": "52"
+  },
+  {
+    "name": "BAY",
+    "value": "23"
+  },
+  {
+    "name": "BRADFORD",
+    "value": "45"
+  },
+  {
+    "name": "BREVARD",
+    "value": "19"
+  },
+  {
+    "name": "BROWARD",
+    "value": "10"
+  },
+  {
+    "name": "CALHOUN",
+    "value": "58"
+  },
+  {
+    "name": "CHARLOTTE",
+    "value": "53"
+  },
+  {
+    "name": "CITRUS",
+    "value": "47"
+  },
+  {
+    "name": "CLAY",
+    "value": "48"
+  },
+  {
+    "name": "COLLIER",
+    "value": "64"
+  },
+  {
+    "name": "COLUMBIA",
+    "value": "29"
+  },
+  {
+    "name": "MIAMI-DADE",
+    "value": "01"
+  },
+  {
+    "name": "DESOTO",
+    "value": "34"
+  },
+  {
+    "name": "DIXIE",
+    "value": "54"
+  },
+  {
+    "name": "DUVAL",
+    "value": "02"
+  },
+  {
+    "name": "ESCAMBIA",
+    "value": "09"
+  },
+  {
+    "name": "FLAGLER",
+    "value": "61"
+  },
+  {
+    "name": "FRANKLIN",
+    "value": "59"
+  },
+  {
+    "name": "GADSDEN",
+    "value": "21"
+  },
+  {
+    "name": "GILCHRIST",
+    "value": "55"
+  },
+  {
+    "name": "GLADES",
+    "value": "60"
+  },
+  {
+    "name": "GULF",
+    "value": "66"
+  },
+  {
+    "name": "HAMILTON",
+    "value": "56"
+  },
+  {
+    "name": "HARDEE",
+    "value": "30"
+  },
+  {
+    "name": "HENDRY",
+    "value": "49"
+  },
+  {
+    "name": "HERNANDO",
+    "value": "40"
+  },
+  {
+    "name": "HIGHLANDS",
+    "value": "27"
+  },
+  {
+    "name": "HILLSBOROUGH",
+    "value": "03"
+  },
+  {
+    "name": "HOLMES",
+    "value": "51"
+  },
+  {
+    "name": "INDIAN RIVER",
+    "value": "32"
+  },
+  {
+    "name": "JACKSON",
+    "value": "25"
+  },
+  {
+    "name": "JEFFERSON",
+    "value": "46"
+  },
+  {
+    "name": "LAFAYETTE",
+    "value": "62"
+  },
+  {
+    "name": "LAKE",
+    "value": "12"
+  },
+  {
+    "name": "LEE",
+    "value": "18"
+  },
+  {
+    "name": "LEON",
+    "value": "13"
+  },
+  {
+    "name": "LEVY",
+    "value": "39"
+  },
+  {
+    "name": "LIBERTY",
+    "value": "67"
+  },
+  {
+    "name": "MADISON",
+    "value": "35"
+  },
+  {
+    "name": "MANATEE",
+    "value": "15"
+  },
+  {
+    "name": "MARION",
+    "value": "14"
+  },
+  {
+    "name": "MARTIN",
+    "value": "42"
+  },
+  {
+    "name": "MONROE",
+    "value": "38"
+  },
+  {
+    "name": "NASSAU",
+    "value": "41"
+  },
+  {
+    "name": "OKALOOSA",
+    "value": "43"
+  },
+  {
+    "name": "OKEECHOBEE",
+    "value": "57"
+  },
+  {
+    "name": "ORANGE",
+    "value": "07"
+  },
+  {
+    "name": "OSCEOLA",
+    "value": "26"
+  },
+  {
+    "name": "PALM BEACH",
+    "value": "06"
+  },
+  {
+    "name": "PASCO",
+    "value": "28"
+  },
+  {
+    "name": "PINELLAS",
+    "value": "04"
+  },
+  {
+    "name": "POLK",
+    "value": "05"
+  },
+  {
+    "name": "PUTNAM",
+    "value": "22"
+  },
+  {
+    "name": "ST. JOHNS",
+    "value": "20"
+  },
+  {
+    "name": "ST. LUCIE",
+    "value": "24"
+  },
+  {
+    "name": "SANTA ROSA",
+    "value": "33"
+  },
+  {
+    "name": "SARASOTA",
+    "value": "16"
+  },
+  {
+    "name": "SEMINOLE",
+    "value": "17"
+  },
+  {
+    "name": "SUMTER",
+    "value": "44"
+  },
+  {
+    "name": "SUWANNEE",
+    "value": "31"
+  },
+  {
+    "name": "TAYLOR",
+    "value": "37"
+  },
+  {
+    "name": "UNION",
+    "value": "63"
+  },
+  {
+    "name": "VOLUSIA",
+    "value": "08"
+  },
+  {
+    "name": "WAKULLA",
+    "value": "65"
+  },
+  {
+    "name": "WALTON",
+    "value": "36"
+  },
+  {
+    "name": "WASHINGTON",
+    "value": "50"
+  }
+]

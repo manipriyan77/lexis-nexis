@@ -1,0 +1,26 @@
+[
+  {
+    "name": "North",
+    "value": "N"
+  },
+  {
+    "name": "South",
+    "value": "S"
+  },
+  {
+    "name": "East",
+    "value": "E"
+  },
+  {
+    "name": "West",
+    "value": "W"
+  },
+  {
+    "name": "Unknown",
+    "value": "U"
+  },
+  {
+    "name": "Not Applicable",
+    "value": "NA"
+  }
+]

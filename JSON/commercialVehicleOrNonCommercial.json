@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Interstate Carrier",
+    "value": "1"
+  },
+  {
+    "name": "Intrastate Carrier",
+    "value": "2"
+  },
+  {
+    "name": "Not In Commerce—Government Vehicle",
+    "value": "3"
+  },
+  {
+    "name": "Not In Commerce—Rental Vehicle",
+    "value": "4"
+  },
+  {
+    "name": "Not In Commerce—Other Vehicle",
+    "value": "5"
+  }
+]

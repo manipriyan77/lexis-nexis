@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Straight",
+    "value": "1"
+  },
+  {
+    "name": "Curve",
+    "value": "2"
+  },
+  {
+    "name": "Unknown",
+    "value": "3"
+  }
+]
