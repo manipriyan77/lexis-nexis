@@ -4,9 +4,9 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="addCodeListValuesForMOdriverEjection"
+     patch_name="0018-addCodeListValuesForMOdriverEjection"
 )THEN PERFORM _v.register_patch(
-    "addCodeListValuesForMOdriverEjection",
+    "0018-addCodeListValuesForMOdriverEjection",
     ARRAY["0003-codelist"],
     NULL
 )
