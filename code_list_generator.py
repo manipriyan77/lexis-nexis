@@ -5,7 +5,7 @@ path = "./JSON"
 dir_list = os.listdir(path)
 dest_file_name = "./SQL/Codelists.sql"
 code_list_id = 660
-state = "TX"
+state = "MO"
 applicationId = 17
  
 for file_name in dir_list:
