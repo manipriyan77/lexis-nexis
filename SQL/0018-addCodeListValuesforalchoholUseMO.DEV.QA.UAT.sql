@@ -4,10 +4,10 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="addCodeListValuesforalchoholUseMO"
+     patch_name="0019-addCodeListValuesforalchoholUseMO"
 )THEN PERFORM _v.register_patch(
-    "addCodeListValuesforalchoholUseMO.sql",
-    ARRAY["0003-codelist"],
+    "0019-addCodeListValuesforalchoholUseMO.sql",
+    ARRAY["0005-codelistvalue","0018-addCodeListsMO"],
     NULL
 )
 
