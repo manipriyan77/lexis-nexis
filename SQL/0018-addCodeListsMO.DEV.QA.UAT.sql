@@ -17,8 +17,8 @@ END IF;
 IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Automation System or Systems in Vehicle') THEN
 INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14001, 'MO Automation System or Systems in Vehicle',  'MO Automation System or Systems in Vehicle', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
 END IF;
-IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO automationSystemLevelsEngagedAtTimeOfCrash') THEN
-INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14002, 'MO automationSystemLevelsEngagedAtTimeOfCrash',  'MO automationSystemLevelsEngagedAtTimeOfCrash', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
+IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Automation System Levels Engaged At Time Of Crash') THEN
+INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14002, 'MO Automation System Levels Engaged At Time Of Crash',  'MO Automation System Levels Engaged At Time Of Crash', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
 END IF;
 IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Commercial Vehicle Cargo Body Type') THEN
 INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14003, 'MO Commercial Vehicle Cargo Body Type',  'MO Commercial Vehicle Cargo Body Type', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
@@ -234,7 +234,7 @@ IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Trailer State') THEN
 INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14073, 'MO Trailer State',  'MO Trailer State', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
 END IF;
 IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Type Of Work Zone') THEN
-INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (1401408, 'MO Type Of Work Zone',  'MO Type Of Work Zone', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
+INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14074, 'MO Type Of Work Zone',  'MO Type Of Work Zone', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
 END IF;
 IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Vehicle Body Type') THEN
 INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14075, 'MO Vehicle Body Type',  'MO Vehicle Body Type', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
@@ -255,4 +255,8 @@ IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Workers Present') THEN
 INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14080, 'MO Workers Present',  'MO Workers Present', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
 END IF;
 IF NOT EXISTS ( select 1 from codelist WHERE name  =  'MO Work Zone') THEN
-END IF;INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14081, 'MO Work Zone',  'MO Work Zone', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
+INSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES (14081, 'MO Work Zone',  'MO Work Zone', false, now(), 1, now(), 1, '{ "applicationId": 14 }');
+END IF;
+END IF;
+
+END $$;

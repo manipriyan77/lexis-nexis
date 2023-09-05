@@ -25,3 +25,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Vehicle Body Type' limit 1), '12', 'CHARTER / TOUR', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Vehicle Body Type' limit 1), '13', 'OTHER', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

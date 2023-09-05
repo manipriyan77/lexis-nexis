@@ -28,3 +28,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Commercial Vehicle Cargo Body Type' limit 1), '14', 'OTHER', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Commercial Vehicle Cargo Body Type' limit 1), '15', 'UNKNOWN', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

@@ -21,3 +21,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Location Of The Crash' limit 1), '6', 'ACTIVITY AREA', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Location Of The Crash' limit 1), '7', 'TERMINATION AREA', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

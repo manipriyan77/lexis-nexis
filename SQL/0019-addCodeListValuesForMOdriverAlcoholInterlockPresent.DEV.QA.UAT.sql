@@ -15,5 +15,6 @@ DO $$ BEGIN IF NOT EXISTS (
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Driver Alcohol Interlock Present' limit 1), '1', 'YES', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Driver Alcohol Interlock Present' limit 1), '2', 'NO', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Driver Alcohol Interlock Present' limit 1), '3', 'UNKNOWN', NULL, false, now(), 1, now(), 1);
-INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Driver Alcohol Interlock Present' limit 1), '4', 'NA � NOT APPLICABLE', NULL, false, now(), 1, now(), 1);
+INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Driver Alcohol Interlock Present' limit 1), '4', 'NA - NOT APPLICABLE', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

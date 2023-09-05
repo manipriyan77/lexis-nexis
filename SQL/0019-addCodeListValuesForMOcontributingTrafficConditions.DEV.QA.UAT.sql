@@ -17,3 +17,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Contributing Traffic Conditions' limit 1), '4', 'OTHER INCIDENT AHEAD', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Contributing Traffic Conditions' limit 1), '5', 'UNKNOWN (EXPLAIN)', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

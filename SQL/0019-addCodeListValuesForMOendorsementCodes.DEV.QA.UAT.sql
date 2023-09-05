@@ -22,3 +22,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Endorsement Codes' limit 1), 'X', 'COMBINATION OF TANK VEHICLE AND HAZARDOUS MATERIALS', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Endorsement Codes' limit 1), '7', 'OTHER NON-COMMERCIAL LICENSE ENDORSEMENTS', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

@@ -30,3 +30,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Traffic Controls' limit 1), '14', 'YIELD SIGN', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Traffic Controls' limit 1), '15', 'OTHER (EXPLAIN)', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

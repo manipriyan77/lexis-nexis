@@ -23,3 +23,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Crash Type' limit 1), '10', 'WORKING MOTOR VEHICLE', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Crash Type' limit 1), '11', 'OTHER NON-MOTORIST', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;

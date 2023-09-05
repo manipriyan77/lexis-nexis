@@ -35,3 +35,4 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Occupant Seat Location' limit 1), 'TC', 'THIRD ROW CENTER', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Occupant Seat Location' limit 1), 'TR', 'THIRD ROW RIGHT', NULL, false, now(), 1, now(), 1);
 END IF;
+END $$;
