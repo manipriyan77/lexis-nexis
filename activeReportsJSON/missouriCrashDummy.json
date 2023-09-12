@@ -74,8 +74,14 @@
     "locationLongitude": -81.04669,
     "locationStreetNumber": "1498",
     "locationStreetName": "HUGER ST",
-    "locationCounty": "",
-    "locationMunicipality": "",
+    "locationCounty": {
+      "name": "Missouri",
+      "value": "MO"
+    },
+    "locationMunicipality": {
+      "name": "Missouri",
+      "value": "MO"
+    },
     "locationRoadwayDirection": "",
     "locationRoadwayMaintainedBy": "",
     "locationSpeedLimit": "34",
@@ -102,7 +108,7 @@
         "units": [
           {
             "unitNumber": "1",
-            "unitType": "vehicle",
+            "unitType": "nonMotorist",
             "unitGuid": "beeyljf43hqqgmfds3o0i",
             "trailerPresent": "",
             "vehicleTemporaryTag": true,
@@ -234,9 +240,15 @@
             "driverDateOfBirth": "",
             "driverSex": "",
             "driverAge": "",
-            "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
+            "driverName": "Mani GS",
+            "nonMotoristName": "HARI",
+            "ownerName": "YASIN",
+            "driverStreetAddress": "",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -362,7 +374,10 @@
             "nonMotoristMiddleName": "",
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
-            "nonMotoristState": "",
+            "nonMotoristState": {
+              "name": "CALIFORNIA",
+              "value": "CA"
+            },
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -509,7 +524,10 @@
             "driverAge": "",
             "driverStreetAddress": "Unit23/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "Unit2CHENNAI",
-            "driverState": "Unit2Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO2"
+            },
             "driverZipCode": "2600097",
             "driverPhoneNumber": "2(063)830-5006",
             "driverSeatLocation": "",
@@ -617,7 +635,7 @@
                     "value": "7"
                   }
                 ],
-                "occupantIndicationOfImproperUse": ""
+                "occupantIndicationOfImproperUse": "7"
               }
             ],
             "passengersKilled": 0,
@@ -636,6 +654,7 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -782,7 +801,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO3"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -909,6 +931,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -1055,7 +1079,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO4"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -1182,6 +1209,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -1332,7 +1361,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO5"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -1459,6 +1491,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -1605,7 +1639,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO6"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -1732,6 +1769,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -1878,7 +1917,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO7"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -2005,6 +2047,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -2151,7 +2195,10 @@
             "driverAge": "",
             "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
             "driverCity": "CHENNAI",
-            "driverState": "Tamilnadu",
+            "driverState": {
+              "name": "CALIFORNIA",
+              "value": "CO8"
+            },
             "driverZipCode": "600097",
             "driverPhoneNumber": "(063)830-5006",
             "driverSeatLocation": "",
@@ -2278,6 +2325,8 @@
             "nonMotoristLastName": "GOPALAN",
             "nonMotoristSex": "",
             "nonMotoristState": "",
+            "nonMotoristStreetAddress": "",
+
             "nonMotoristLocation": "",
             "nonMotoristBicyleLaneOrFacility": "",
             "nonMotoristCrossingRoad": "",
@@ -2428,7 +2477,10 @@
         "driverAge": "",
         "driverStreetAddress": "3/654,ANNAI AVENUE,2ND STREET,METTUKUPPAM,CHENNAI-97",
         "driverCity": "CHENNAI",
-        "driverState": "bangalore",
+        "driverState": {
+          "name": "CALIFORNIA",
+          "value": "CO9"
+        },
         "driverZipCode": "600097",
         "driverPhoneNumber": "(063)830-5006",
         "driverSeatLocation": "",
@@ -2555,6 +2607,8 @@
         "nonMotoristLastName": "GOPALAN",
         "nonMotoristSex": "",
         "nonMotoristState": "",
+        "nonMotoristStreetAddress": "",
+
         "nonMotoristLocation": "",
         "nonMotoristBicyleLaneOrFacility": "",
         "nonMotoristCrossingRoad": "",

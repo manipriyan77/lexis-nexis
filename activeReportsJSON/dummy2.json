@@ -128,7 +128,10 @@
         "endorsementCodes": "",
         "driverSex": "",
         "driverAge": "",
-        "driverState": "",
+        "driverState": {
+          "name": "CALIFORNIA",
+          "value": "CA"
+        },
         "driverSeatLocation": "",
         "driverInjury": "",
         "driverTransported": "",
@@ -150,7 +153,13 @@
         "nonMotoristType": "",
         "NonMotoristPedestrian": "",
         "nonMotoristSex": "",
-        "nonMotoristState": "",
+        "nonMotoristState": {
+          "name": "CALIFORNIA",
+          "value": "CA"
+        },
+        "driverName": "Mani GS",
+        "nonMotoristName": "HARI",
+        "ownerName": "YASIN",
         "nonMotoristLocation": "",
         "nonMotoristBicyleLaneOrFacility": "",
         "nonMotoristCrossingRoad": "",
@@ -234,7 +243,10 @@
         "driverAge": "",
         "driverStreetAddress": "",
         "driverCity": "",
-        "driverState": "",
+        "driverState": {
+          "name": "COLORADO",
+          "value": "CO"
+        },
         "driverZipCode": "",
         "driverPhoneNumber": "",
         "driverSeatLocation": "",

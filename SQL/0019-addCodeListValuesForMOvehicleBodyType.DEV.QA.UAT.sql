@@ -5,12 +5,12 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="0019-addCodeListValuesForMOvehicleBodyType"
+     patch_name='0019-addCodeListValuesForMOvehicleBodyType'
 )THEN PERFORM _v.register_patch(
-    "0019-addCodeListValuesForMOvehicleBodyType",
-   ARRAY["0005-codelistvalue","0018-addCodeListsMO"],
+    '0019-addCodeListValuesForMOvehicleBodyType',
+   ARRAY['0005-codelistvalue','0018-addCodeListsMO'],
     NULL
-)
+);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Vehicle Body Type' limit 1), '1', 'PASSENGER CAR', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Vehicle Body Type' limit 1), '2', 'PASSENGER VAN (< 9 SEATS)', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Vehicle Body Type' limit 1), '3', '9-12 PASSENGER VAN', NULL, false, now(), 1, now(), 1);

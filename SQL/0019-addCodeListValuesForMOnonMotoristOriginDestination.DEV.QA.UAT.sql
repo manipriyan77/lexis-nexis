@@ -5,12 +5,12 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="0019-addCodeListValuesForMOnonMotoristOriginDestination"
+     patch_name='0019-addCodeListValuesForMOnonMotoristOriginDestination'
 )THEN PERFORM _v.register_patch(
-    "0019-addCodeListValuesForMOnonMotoristOriginDestination",
-   ARRAY["0005-codelistvalue","0018-addCodeListsMO"],
+    '0019-addCodeListValuesForMOnonMotoristOriginDestination',
+   ARRAY['0005-codelistvalue','0018-addCodeListsMO'],
     NULL
-)
+);
 
 
 

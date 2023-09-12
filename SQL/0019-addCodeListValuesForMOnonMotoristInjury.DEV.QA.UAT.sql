@@ -5,12 +5,12 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="0019-addCodeListValuesForMOnonMotoristInjury"
+     patch_name='0019-addCodeListValuesForMOnonMotoristInjury'
 )THEN PERFORM _v.register_patch(
-    "0019-addCodeListValuesForMOnonMotoristInjury",
-   ARRAY["0005-codelistvalue","0018-addCodeListsMO"],
+    '0019-addCodeListValuesForMOnonMotoristInjury',
+   ARRAY['0005-codelistvalue','0018-addCodeListsMO'],
     NULL
-)
+);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Non Motorist Injury' limit 1), 'K', 'FATAL INJURY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Non Motorist Injury' limit 1), 'A', 'SUSPECTED SERIOUS INJURY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Non Motorist Injury' limit 1), 'B', 'SUSPECTED MINOR INJURY', NULL, false, now(), 1, now(), 1);

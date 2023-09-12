@@ -5,12 +5,12 @@ DO $$ BEGIN IF NOT EXISTS (
     FROM
      _v.patches
     WHERE
-     patch_name="0019-addCodeListValuesForMOmunicipality"
+     patch_name='0019-addCodeListValuesForMOmunicipality'
 )THEN PERFORM _v.register_patch(
-    "0019-addCodeListValuesForMOmunicipality",
-   ARRAY["0005-codelistvalue","0018-addCodeListsMO"],
+    '0019-addCodeListValuesForMOmunicipality',
+   ARRAY['0005-codelistvalue','0018-addCodeListsMO'],
     NULL
-)
+);
 
 
 
@@ -264,7 +264,7 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '45', 'RUSKIN', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '41', 'SWEET WATER CREEK', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '50', 'TAMPA', NULL, false, now(), 1, now(), 1);
-INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '60', "TAMPA INT'L AIRPORT", NULL, false, now(), 1, now(), 1);
+INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '60', 'TAMPA INT'L AIRPORT', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '52', 'TEMPLE TERRACE', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '54', 'UNIV. OF SOUTH FL', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '56', 'UNIV. OF TAMPA', NULL, false, now(), 1, now(), 1);
@@ -372,7 +372,7 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '53', 'PALM CITY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '54', 'PORT SALERNO', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '56', 'PORT ST LUCIE', NULL, false, now(), 1, now(), 1);
-INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '60', "SEWLL'S POINT", NULL, false, now(), 1, now(), 1);
+INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '60', 'SEWLL'S POINT', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '62', 'STUART', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '48', 'BOCA CHICA', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '50', 'BOCA CHICA NAS', NULL, false, now(), 1, now(), 1);
@@ -481,8 +481,8 @@ INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disab
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '30', 'DADE CITY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '34', 'EAST RICHEY LAKES', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '32', 'JASMINE ESTATES', NULL, false, now(), 1, now(), 1);
-INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '35', "LAND O'LAKES", NULL, false, now(), 1, now(), 1);
-INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '37', "LAND O'LAKES -OTHER TROOP K", NULL, false, now(), 1, now(), 1);
+INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '35', 'LAND O'LAKES', NULL, false, now(), 1, now(), 1);
+INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '37', 'LAND O'LAKES -OTHER TROOP K', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '40', 'NEW PORT RICHEY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '50', 'PORT RICHEY', NULL, false, now(), 1, now(), 1);
 INSERT INTO codelistvalue (codeListId, value, name, parentCodeListValueId, disabled, created, createdBy, lastUpdated, lastUpdatedBy) VALUES ((select id from codelist where name = 'MO Municipality' limit 1), '60', 'SAN ANTONIO', NULL, false, now(), 1, now(), 1);
