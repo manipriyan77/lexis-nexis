@@ -16,7 +16,7 @@ for file_name in dir_list:
     with open(source_file_name, encoding='utf8') as f:
         data = json.load(f)
 
-    start = 'IF NOT EXISTS ( select 1 from codelist WHERE name  =  \'{state} {file_name}\') THEN\nINSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES ({code_list_id}, \'{state} {file_name}\',  \'{state} {file_name}\', false, now(), 1, now(), 1, \'{{ 'applicationId': {applicationId} }}\');\n'.format(file_name=file_name.split('.')[0], code_list_id=code_list_id, state=state, applicationId=applicationId)
+    start = 'IF NOT EXISTS ( select 1 from codelist WHERE name  =  \'{state} {file_name}\') THEN\nINSERT INTO codelist (id, name, description, disabled, created, createdBy, lastUpdated, lastupdatedby, metadata) VALUES ({code_list_id}, \'{state} {file_name}\',  \'{state} {file_name}\', false, now(), 1, now(), 1, \'{{ "applicationId": {applicationId} }}\');\n'.format(file_name=file_name.split('.')[0], code_list_id=code_list_id, state=state, applicationId=applicationId)
 
     code_list_id+=1
 
